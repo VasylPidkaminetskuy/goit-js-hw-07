@@ -11,6 +11,6 @@ searchForm.addEventListener('submit', e => {
     email: userEmail,
     password: userPassword,
   };
-    
+  console.log(dataUser);
   searchForm.reset();
 });
