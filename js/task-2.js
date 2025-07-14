@@ -26,7 +26,6 @@ const images = [
 ];
 
 const galleryList = document.querySelector('.gallery');
-console.log(galleryList);
 
 const arrGalery = images
   .map(elem => {
